@@ -41,8 +41,8 @@ class ScoreCardJPanel extends JPanel
 {
     private LowercardJPanel l;
     private UppercardJPanel u;
-    //figure out pathway below
-    //ImageIcon win = new ImageIcon(src/hw);
+  
+    
     //store lower points
     private int lower[] = new int[7];
     //store upper points
