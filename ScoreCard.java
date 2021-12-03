@@ -10,9 +10,7 @@ import javax.swing.JPanel;
 
 public class ScoreCard extends JFrame
 {
-    /**
-	 * 
-	 */
+    
 	private static final long serialVersionUID = 1L;
 	ScoreCardJPanel scjp;
     static int num;
@@ -24,12 +22,6 @@ public class ScoreCard extends JFrame
         //set default background color
         jframe.getContentPane().setBackground(Color.WHITE);
         
-       // JLabel playername = new JLabel(Yahtzee.Player.name + "	");
-	   // playername.setFont(new Font("Calibri", Font.PLAIN, 24));
-       // jframe.add(playername);
-	    //JLabel playerchar = new JLabel(Yahtzee.Player.charpicked);
-	 //   playerchar.setSize(24,24);
-	    //jframe.add(playerchar);
 	  	  
 	    //set flow layout	
         jframe.setLayout(new FlowLayout()); 
@@ -671,11 +663,7 @@ class ScoreCardJPanel extends JPanel
 	    fTotal = new JLabel(String.valueOf(totalPoints));
 	    fTotal.setFont(new Font("Calibri", Font.PLAIN, 18));
 	    add(fTotal);
-	    /*
-	    winner.setImage(winner.getImage().getScaledInstance(200, 150, Image.SCALE_DEFAULT));
-	    winnerGif = new JLabel(winner);
-	    add(winnerGif);
-	    winnerGif.setVisible(false);*/
+	 
     }
 	//calculates sum on dice roll
 	int diceSum(int val)
